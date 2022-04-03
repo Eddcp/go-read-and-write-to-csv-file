@@ -1,14 +1,14 @@
 package main
 
 import (
-    "encoding/csv"
-	"encoding/json"
-    "log"
-	"fmt"
-    "os"
-	"net/http"
-	"io/ioutil"
-	"sync"
+   "encoding/csv"
+   "encoding/json"
+   "log"
+   "fmt"
+   "os"
+   "net/http"
+   "io/ioutil"
+   "sync"
 )
 
 var wg sync.WaitGroup
